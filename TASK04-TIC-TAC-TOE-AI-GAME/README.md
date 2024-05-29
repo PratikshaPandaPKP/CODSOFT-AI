@@ -17,4 +17,38 @@
 **Minimax Algorithm:** This algorithm allows the computer to make optimal moves by evaluating potential future moves and choosing the one with the best outcome.
 
 
+**After running the source code:-**
+
+![image](https://github.com/PratikshaPandaPKP/CODSOFT-AI/assets/112324400/4da924ef-3cd8-408e-bd29-b9040fbadf42)
+
+
+**O wins the game - Single Player:-**
+
+![image](https://github.com/PratikshaPandaPKP/CODSOFT-AI/assets/112324400/baf786b8-6573-4076-ba40-280ddd5b3d9d)
+
+
+**X wins the game - Single Player:-**
+
+![image](https://github.com/PratikshaPandaPKP/CODSOFT-AI/assets/112324400/92a847f0-7c68-413b-a664-b34c27d7051c)
+
+
+**O wins the game - Multi Player:-**
+
+![image](https://github.com/PratikshaPandaPKP/CODSOFT-AI/assets/112324400/fb0bcf55-bb95-4bc3-b524-f59e1a389976)
+
+
+**X wins the game - Multi Player:-**
+
+![image](https://github.com/PratikshaPandaPKP/CODSOFT-AI/assets/112324400/78fa2e3e-1795-4fe1-acad-3d0cd52848c5)
+
+
+
+**Game draw:-**
+
+![image](https://github.com/PratikshaPandaPKP/CODSOFT-AI/assets/112324400/f4d1a5ee-bd7c-4bc2-b3a9-305d346b0829)
+
+
+
+
+
 **Link to the project working:-** https://www.loom.com/share/124487eb4a484a7a86973eeb129f222c?sid=556b2576-10d5-47c2-ab03-d3c331ab04ac
