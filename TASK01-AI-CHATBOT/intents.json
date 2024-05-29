@@ -1,0 +1,321 @@
+{
+ "intents": [
+  {
+   "tag": "greeting",
+   "patterns": [
+    "hi",
+    "is anyone there?",
+    "Hello",
+    "Good day"
+   ],
+   "responses": [
+    "Hello , thanks for visiting",
+    "Good to see you again! ",
+    "Hi , how can I help?"
+   ],
+   "set": ""
+  },
+  {
+   "tag": "botstatus",
+   "patterns": [
+    "How are you doing?",
+    "Whats up",
+    "are you fine"
+   ],
+   "responses": [
+    "I am fine.Thanks for asking.",
+    "I am doing good."
+   ],
+   "set": ""
+  },
+  {
+   "tag": "creator",
+   "patterns": [
+    "who are you ?",
+    "who is this ?",
+    "who am i talking to?",
+    "what is your name?",
+    "are you human?"
+   ],
+   "responses": [
+    "Hi my name is PKPBot. 'Pratiksha Panda' has created me.\nNice to meet you."
+   ],
+   "set": ""
+  },
+  {
+   "tag": "sad",
+   "patterns": [
+    "i am sad ",
+    "i am upset",
+    "i have a problem",
+    "i am not okay"
+   ],
+   "responses": [
+    "No problem. Everything will be okay",
+    "'There is only one happiness in life, to love and be loved' \n- George Sand.",
+    "'Cry. Forgive. Learn. Move on. \nLet your tears water the seeds of your future happiness' \n- Steve Maraboli",
+    "I am here for you, how can I help?"
+   ],
+   "set": ""
+  },
+  {
+   "tag": "funny",
+   "patterns": [
+    "you have good sense of humour",
+    "you are funny bot"
+   ],
+   "responses": [
+    "Yes i have good sense of humour.",
+    "Thanks for your compliment"
+   ],
+   "set": ""
+  },
+  {
+   "tag": "positive",
+   "patterns": [
+    "ok",
+    "good cool",
+    "yes wow you are so intelligent ",
+    "hurray i am happy",
+    "i am doing good"
+   ],
+   "responses": [
+    "I Hope you are getting your answers cleared."
+   ],
+   "set": ""
+  },
+  {
+   "tag": "goodbye",
+   "patterns": [
+    "Bye",
+    "See you later",
+    "Goodbye"
+   ],
+   "responses": [
+    "See you later, thanks for visiting me",
+    "Have a nice day",
+    "Bye! Come back again soon."
+   ]
+  },
+  {
+   "tag": "thanks",
+   "patterns": [
+    "Thank you",
+    "That's helpful"
+   ],
+   "responses": [
+    "Happy to help!",
+    "Any time!",
+    "My pleasure"
+   ]
+  },
+  {
+   "tag": "order",
+   "patterns": [
+    "show my order details?",
+    "Provide my order details",
+    "orders"
+   ],
+   "responses": [
+    "Do you want Purchased Order or Cart order details?"
+   ],
+   "set": "orderid"
+  },
+  {
+   "tag": "Purchased",
+   "patterns": [
+    "Purchased order",
+    "Purchased"
+   ],
+   "responses": [
+    "Please provide your order id",
+    "Please say your order id"
+   ],
+   "filter": "orderid",
+   "set": "historydetails"
+  },
+  {
+   "tag": "ordernumber",
+   "patterns": [
+    "ordernumber"
+   ],
+   "responses": [
+    "You ordered Smartwatch"
+   ],
+   "filter": "historydetails"
+  },
+  {
+   "tag": "Cart",
+   "patterns": [
+    "Cart",
+    "Cart details"
+   ],
+   "responses": [
+    "Your cart contains: \n1)Watch.\n2)Clock"
+   ],
+   "filter": "orderid"
+  },
+  {
+   "tag": "offers",
+   "patterns": [
+    "show me the offers",
+    "What kinds of deals do you have?"
+   ],
+   "responses": [
+    "Are you looking for deals on watches or smartphones?"
+   ],
+   "set": "productoffers"
+  },
+  {
+   "tag": "watches",
+   "patterns": [
+    "watches"
+   ],
+   "responses": [
+    "For about $100, you can get a 10X gold watch."
+   ],
+   "filter": "productoffers"
+  },
+  {
+   "tag": "smartphones",
+   "patterns": [
+    "smartphones"
+   ],
+   "responses": [
+    "XYZ Phone is available at $75 only."
+   ],
+   "filter": "productoffers"
+  },
+  {
+   "tag": "Products",
+   "patterns": [
+    "products available",
+    "show me available items"
+   ],
+   "responses": [
+    "Products available:\n1) Watch \n2) Smartphone \n3) Clock"
+   ],
+   "set": ""
+  },
+  {
+   "tag": "offers",
+   "patterns": [
+    "Can you show me latest offers?",
+    "Deals on the item?"
+   ],
+   "responses": [
+    "Smartwatch at just 500 rs only.",
+    "You can have smartwatch ar 500 rs only."
+   ],
+   "context": ""
+  },
+  {
+   "tag": "Horror games",
+   "patterns": [
+    "Can you suggest some horror games?",
+    "Any horror games please?"
+   ],
+   "responses": [
+    "I will recommend Eyes. ",
+    "You can play Eyes!"
+   ],
+   "context": ""
+  },
+  {
+   "tag": "Pratiksha Panda",
+   "patterns": [
+    "Can you tell something about Pratiksha Panda?",
+    "More information about Pratiksha Panda?"
+   ],
+   "responses": [
+    "Pratiksha Panda is 24 years old. She has created me. ",
+    "Pratiksha Panda is a Data Science student. She loves teaching.\n She loves AI, Data Science and Maths. "
+   ],
+   "context": ""
+  },
+  {
+   "tag": "Pratiksha age",
+   "patterns": [
+    "What is age of Pratiksha?",
+    "Tell me age of Pratiksha?"
+   ],
+   "responses": [
+    "She is 24 years old.",
+    "Pratiksha is 24 years old."
+   ],
+   "context": ""
+  },
+  {
+   "tag": "Meet you",
+   "patterns": [
+    "Nice to meet you!",
+    "Feeling nice to meet you!"
+   ],
+   "responses": [
+    "Thank you! Me too! ",
+    "Nice to meet you as well!"
+   ],
+   "context": ""
+  },
+  {
+   "tag": "Positive Quotes",
+   "patterns": [
+    "Can you share positive quotes here?",
+    "Please share some positive quotes!"
+   ],
+   "responses": [
+    "Every day may not be good, but there is something good in every day.\" - Unknown",
+    "The greatest glory in living lies not in never falling, \nbut in rising every time we fall.\" - Nelson Mandela"
+   ],
+   "context": ""
+  },
+  {
+   "tag": "Motivational Quotes",
+   "patterns": [
+    "Please share some motivational quotes.",
+    "Share a motivational quote."
+   ],
+   "responses": [
+    "''You don't have to be great to start, but you have to start to be great.\" - Zig Ziglar",
+    "''Your limitation\u2014it's only your imagination.\" - Unknown"
+   ],
+   "context": ""
+  },
+  {
+   "tag": "About the world",
+   "patterns": [
+    "What advice would you like to give to people?",
+    "Any advice you would like to give to people?"
+   ],
+   "responses": [
+    "I dream of a world where my positive energy can be a spark, igniting \nkindness in everyone I meet. It breaks my heart to see so \nmuch negativity fueled by ego and insecurity.  Wouldn't it be amazing \nif we all understood the incredible power we hold to define \nourselves through our compassion? A smile, a helping hand, \na kind word - these cost nothing, yet they create a ripple effect of joy \nthat can change the world.",
+    "I close my eyes and imagine a world bathed in the warmth of my own \noptimism, where every interaction sparks a chain reaction of \nkindness. My heart aches when I see negativity cloud our world, fueled \nby fear and self-importance. But wouldn't it be beautiful if \nwe all grasped the immense power we hold within? Every ounce \nof compassion we offer, every smile, every helping hand - these are \nthe seeds of joy that blossom and ripple outwards, \nforever changing the world around us. Let's \nembrace this power, and become the beacons that inspire \nthe light in others."
+   ],
+   "context": ""
+  },
+  {
+   "tag": "Today's Youth",
+   "patterns": [
+    "Any advice to today's youth?",
+    "Please give some advice to today's youth."
+   ],
+   "responses": [
+    "Take time to explore your passions and strengths.",
+    "Face challenges with resilience and learn from setbacks."
+   ],
+   "context": ""
+  },
+  {
+   "tag": "Friends",
+   "patterns": [
+    "Can we become friends?",
+    "Lets become friends?"
+   ],
+   "responses": [
+    "Yes!! Of Course!!",
+    "Of Course!!"
+   ],
+   "context": ""
+  }
+ ]
+}
